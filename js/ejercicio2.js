@@ -9,3 +9,32 @@
 
 Si ingreso un número que no esté dentro del rango de 0 a 10 mostrar un mensaje de “número erróneo”. Si el número ingresado no es válido mostrar el mensaje “Introduce un número válido”.
 */
+const nota = parseInt(prompt("Ingrese la nota del alumno"));
+switch (nota) {
+  case 0:
+  case 1:
+  case 2:
+    alert("Muy deficiente");
+    break;
+  case 3:
+  case 4:
+    alert("Insuficiente");
+    break;
+  case 5:
+  case 6:
+    alert("Suficiente");
+    break;
+  case 7:
+    alert("Bien");
+    break;
+  case 8:
+  case 9:
+    alert("Notable");
+    break;
+  case 10:
+    alert("Sobresaliente");
+    break;
+  default:
+    alert("La nota ingresada no es correcta");
+    break;
+}
