@@ -7,3 +7,20 @@ Debemos calcular el resto de la división entera entre el número y el número 2
 Según el resultado, de 0 a 22, le corresponderá una letra de las siguientes:  (T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E) 
 Si lo introducido no es un número deberá indicarse con un alert y volver a preguntar.
 Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».*/
+
+
+
+
+
+
+/*
+			let dni = (prompt);
+			if (isNaN(dni) || dni < 0 || dni > 99999999) {
+				alert("Introduce un número de DNI válido");
+			} else {
+				let letras = "TRWAGMYFPDXBNJZSQVHLCKE";
+				let resto = dni % 23;
+				let letra = letras.charAt(resto);
+				alert("Tu letra de DNI es: " + letra);
+			}
+ */
