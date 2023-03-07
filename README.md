@@ -16,4 +16,8 @@ git clone https://github.com/RLauraS/TP2-EjerciciosJavascript.git
 ```
 
 ## Autor:
-💜 [Laura Rota](https://github.com/RLauraS) 💜
+- Link de GitHub: ⬇ <br>
+💜 [Laura Rota](https://github.com/RLauraS) 💜<br>
+⬇Link de LinkedIn: ⬇ <br>
+- 💜 👩‍💻[Laura Rota](https://www.linkedin.com/in/laura-rota-51699b243/?original_referer=) 👩‍💻 💜
+
