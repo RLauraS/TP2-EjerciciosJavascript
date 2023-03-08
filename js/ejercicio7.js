@@ -8,3 +8,14 @@
 22
 1
  */
+let repeticiones= parseInt(prompt('Ingrese un número del 1 al 50'));
+if(repeticiones>0 && repeticiones<51 && !isNaN(repeticiones)){
+for(let fila = repeticiones;fila>=1;fila--){
+    for(let columna=fila; columna>=1; columna--){
+        document.write(fila)
+    }
+    document.write('<br>')
+}
+}else{
+    alert('Ingresaste una opcion inválida')
+}
