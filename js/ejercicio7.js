@@ -8,7 +8,7 @@
 22
 1
  */
-let repeticiones= parseInt(prompt('Ingrese un número de repeticiones del 1 al 50'));
+let repeticiones= parseInt(prompt('Ingrese un número del 1 al 50'));
 if(repeticiones>0 && repeticiones<51 && !isNaN(repeticiones)){
 for(let fila = repeticiones;fila>=1;fila--){
     for(let columna=fila; columna>=1; columna--){
