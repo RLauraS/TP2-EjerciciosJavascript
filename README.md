@@ -7,7 +7,7 @@ Trabajo práctico de JavaScript con ejercicios de bucles para RollingCode School
 - [Explicacion de confirm](https://www.youtube.com/watch?v=i2bL0BQdrrE)
 - [Explicacion de metodos utilizados para resolver algunos ejercicios](https://tutobasico.com/category/tutoriales-programacion/tutoriales-javascript/)
 - [Funcion Math.floor()](https://tutobasico.com/basicos-3-javascript/)
-- [Explicacion de las etiquetas <table>, <td> y <tr>](https://tutobasico.com/basicos2-javascript/)
+- [Explicacion de las etiquetas < table >, < td > y < tr >](https://tutobasico.com/basicos2-javascript/)
 - [Documentación de RollingCode acerca de variables y operadores de JavaScript](https://docs.google.com/presentation/d/e/2PACX-1vRwjAw1c3tu59AuFhUHmXO6ToBV1xYXT_jgRuT3PzBnxzlfzVmZfvVZ1jMUjp8a_R7nwL2DCyC2rdsL/pub?start=false&loop=false&delayms=3000&slide=id.p)
 - [Documentacion de RollingCode acerca de Estructuras condicionales, arreglos, bucles y funciones](https://docs.google.com/presentation/d/e/2PACX-1vSG0Dyv04Hd7zU4GDjhs4M0hfasm-kEewAD58S7EmGaygepAgKYgQVelrU6pahdsOT2CUboQIEz_XbP/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
