@@ -8,19 +8,17 @@ Según el resultado, de 0 a 22, le corresponderá una letra de las siguientes:  
 Si lo introducido no es un número deberá indicarse con un alert y volver a preguntar.
 Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».*/
 
-
-
-
-
-
-/*
-			let dni = (prompt);
-			if (isNaN(dni) || dni < 0 || dni > 99999999) {
-				alert("Introduce un número de DNI válido");
-			} else {
-				let letras = "TRWAGMYFPDXBNJZSQVHLCKE";
-				let resto = dni % 23;
-				let letra = letras.charAt(resto);
-				alert("Tu letra de DNI es: " + letra);
-			}
- */
+while (true) {
+  let dni = prompt("Ingrese su dni, por favor");
+  if (dni === null) {
+    break;
+  } else if (!isNaN(dni) || dni > 0 || dni < 99999999) {
+    let cadena = "TRWAGMYFPDXBNJZSQVHLCKE";
+    let resto = dni % 23;
+    let letraResultante = cadena.charAt(resto);
+    alert(`Te corresponde la letra: ${letraResultante}`);
+  } else {
+    alert("Ha ingresado un valor o caracter no válido");
+  }
+}
+/*si el usuario presiona "cancelar",la variable dni tomará el valor null y se ejecutará el break deteniendo el bucle. */
