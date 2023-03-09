@@ -8,3 +8,14 @@
 123456
 ……
  */
+let numero = prompt("Ingrese un número no mayor a 50:");
+let piramide = "";
+
+if (numero < 51 || !isNaN(numero)) {
+  for (let i = 1; i <= numero; i++) {
+    piramide += i;
+    document.write(`${piramide}<br>`);
+  }
+} else {
+  document.write("Recuerde ingresar un número menor a 50 (no palabras), por favor");
+}

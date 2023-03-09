@@ -7,3 +7,18 @@ Debemos calcular el resto de la división entera entre el número y el número 2
 Según el resultado, de 0 a 22, le corresponderá una letra de las siguientes:  (T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E) 
 Si lo introducido no es un número deberá indicarse con un alert y volver a preguntar.
 Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».*/
+
+while (true) {
+  let dni = prompt("Ingrese su dni, por favor");
+  if (dni === null) {
+    break;
+  } else if (!isNaN(dni) || dni > 0 || dni < 99999999) {
+    let cadena = "TRWAGMYFPDXBNJZSQVHLCKE";
+    let resto = dni % 23;
+    let letraResultante = cadena.charAt(resto);
+    alert(`Te corresponde la letra: ${letraResultante}`);
+  } else {
+    alert("Ha ingresado un valor o caracter no válido");
+  }
+}
+/*si el usuario presiona "cancelar",la variable dni tomará el valor null y se ejecutará el break deteniendo el bucle. */
